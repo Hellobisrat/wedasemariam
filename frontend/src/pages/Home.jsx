@@ -31,7 +31,7 @@ function Home() {
   
   return (
     <div className='p-4'>
-      console.log(books)
+
       
       <div className='flex justify-between items-center'>
         <h1 className='text-3xl my-8'>Books List</h1>
