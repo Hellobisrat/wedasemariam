@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-style {
+  @apply  bg-black p-6  text-white rounded w-full hover:bg-red-500 text-center;
+}
+
+.main-style {
+  @apply bg-black py-2 px-6 text-slate-100 rounded-md shadow-xl  shadow-slate-600 mt-3 h-full mx-auto w-[1000px] p-3  text-sm md:text-lg lg:text-xl;
+}
+
+.submain-style {
+  @apply flex flex-col items-start px-6 py-3 leading-relaxed justify-start md:w-[750px] lg:w-[900px] w-full;
+}
+
+p{
+  @apply mb-2
+}
+h2 {
+  @apply font-bold text-xl mb-2
+}
