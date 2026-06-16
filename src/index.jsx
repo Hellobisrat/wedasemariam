@@ -1,8 +1,8 @@
 
-export {default as Form} from './Form.jsx'
+export {default as Form} from './components/Form.jsx'
 export {default as Home} from './Home.jsx'
-export {default as Navbar} from './Navbar.jsx'
-export {default as Footer } from './Footer.jsx'
+export {default as Navbar} from './components/Navbar.jsx'
+export {default as Footer } from './components/Footer.jsx'
 export {default as Segno} from './pages/segno.jsx'
 export { default as Makesegno } from "./pages/maksegno.jsx";
 export { default as Ehud } from "./pages/ehud.jsx";

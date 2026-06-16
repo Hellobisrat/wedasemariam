@@ -1,28 +1,43 @@
-import React from 'react'
-import emebetachin from './image/emebetachint.png'
+import React from "react";
+import emebetachin from "./image/emebetachint.png";
 
 function Home() {
   return (
-    <div className='flex justify-center items-center  h-screen '>
-    <div className='md:grid grid-cols-2 gap-3 p-10  '>
-      <div className='md:flex-shrink-0 shadow-lg rounded-xl shadow-pink overflow-hidden'>
-        <img className='rounded-xl md:w-80 sm:w-56'  src={emebetachin}  alt='hiwot '/>
-      </div>
-      <div className='flex flex-col justify-center items-start shadow-lg rounded-xl shadow-blue p-6'>
-        <div className='uppercase tracking-wide text-sm text-indigo-600 font-bold'>
-          የድንግል ማርያም ምስጋና
-        </div>
-        <a href="/get-started" className="block mt-1 text-lg leading-tight font-semibold text-slate-500 hover:underline">
-       ሰው የሆነና በእኛ ያደረ ቃል ኢየሱስ ክርስቶስ ነው
-    </a>
-    <p className="mt-2 text-slate-600">
-      አምላክን የወለደች የድንግል ማርያም ምስጋና
-    </p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-indigo-50 to-purple-100 flex justify-center items-center px-4 py-10">
       
+      <div className="grid md:grid-cols-2 gap-6 max-w-3xl w-full bg-white rounded-2xl shadow-xl p-6 animate-fadeIn">
+        
+        {/* Image Section */}
+        <div className="flex justify-center">
+          <img
+            src={emebetachin}
+            alt="Emebetachin"
+            className="rounded-xl shadow-md w-64 md:w-80 object-cover"
+          />
+        </div>
+
+        {/* Text Section */}
+        <div className="flex flex-col justify-center space-y-4">
+          
+          <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+            የድንግል ማርያም ምስጋና
+          </div>
+
+          <a
+            href="/get-started"
+            className="text-xl font-semibold text-gray-700 hover:text-indigo-600 transition"
+          >
+            ሰው የሆነና በእኛ ያደረ ቃል ኢየሱስ ክርስቶስ ነው
+          </a>
+
+          <p className="text-gray-600 leading-relaxed">
+            አምላክን የወለደች የድንግል ማርያም ምስጋና በዕለት ተዕለት የሚያበራ ብርሃን ነው።
+          </p>
+
+        </div>
       </div>
-      </div>
-  )
+    </div>
+  );
 }
 
 export default Home;
