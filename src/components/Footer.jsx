@@ -5,7 +5,7 @@ import { IoInformationCircle } from "react-icons/io5"
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white shadow-md p-2 flex justify-around text-gray-700">
+    <div className="fixed bottom-0 left-0 right-0 bg-yellow-500 shadow-md p-2 flex justify-around text-gray-700">
 
       {/* HOME */}
       <Link to="/" className="flex flex-col items-center">
