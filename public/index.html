@@ -3,35 +3,29 @@
   <head>
     <meta charset="utf-8" />
 
-    <!-- App Title -->
     <title>Widasé Mariam</title>
 
-    <!-- Favicon -->
     <link rel="icon" href="%PUBLIC_URL%/logo192.png" />
-
-    <!-- iPhone PWA Icon -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
-    <!-- PWA Manifest -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- Viewport (prevents iPhone zoom delay) -->
+    <!-- Modern + iPhone PWA support -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Best for PWA + removes iPhone tap delay -->
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
+      content="width=device-width, initial-scale=1, user-scalable=no"
     />
 
-    <!-- Theme Color (status bar color on Android) -->
     <meta name="theme-color" content="#ffffff" />
-
-    <!-- App Description -->
     <meta
       name="description"
       content="Widasé Mariam — Ethiopian Orthodox prayers, hymns, and spiritual resources."
     />
 
-    <!-- iOS PWA Fullscreen -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- iOS status bar -->
     <meta name="apple-mobile-web-app-status-bar-style" content="white" />
   </head>
 
@@ -40,3 +34,4 @@
     <div id="root"></div>
   </body>
 </html>
+
