@@ -10,7 +10,7 @@ const Form = () => {
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8 animate-fadeIn">
         
         <h1 className="text-2xl font-bold text-center mb-6">
-          የውዳሴ ማርያም ቀን መርጫ
+          የውዳሴ ማርያም ቀን ምርጫ
         </h1>
 
         <div className="flex flex-col gap-4 text-lg">
