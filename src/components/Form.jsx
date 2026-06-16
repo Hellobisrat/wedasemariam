@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
+import church from "../image/church.png"
 
 const Form = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-b from-gray-100
+     to-gray-300 flex items-center justify-center px-4"
+      style={{ backgroundImage: `url(${church})` }}>
       
       <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8 animate-fadeIn">
         
