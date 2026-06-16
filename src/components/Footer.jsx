@@ -1,6 +1,7 @@
 import { AiFillHome } from "react-icons/ai"
 import { GiPrayer } from "react-icons/gi"
 import { IoInformationCircle } from "react-icons/io5"
+import { Link } from "react-router"
 
 
 const Footer = () => {
@@ -8,12 +9,12 @@ const Footer = () => {
     <div className="fixed bottom-0 left-0 right-0 bg-yellow-500 shadow-md p-2 flex justify-around text-gray-200">
       <div className="flex flex-col items-center">
         <AiFillHome className="text-2xl" />
-        <span className="text-xs">Home</span>
+        <Link  to='/' className="text-xs"  >Home</Link>
       </div>
 
       <div className="flex flex-col items-center">
         <GiPrayer className="text-2xl" />
-        <span className="text-xs">Prayer</span>
+        <Link to="/form" className="text-xs">Prayer</Link>
       </div>
 
       <div className="flex flex-col items-center">
