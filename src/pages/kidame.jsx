@@ -2,10 +2,11 @@ import React from 'react'
 
 function kidame() {
   return (
-    <div className='main-style'>
-      <div className='submain-style'>
-        <h2 >  ቅዳሜ የሚጸለይ አምላክን የወለደች የእመቤታችን <span className='text-red-500'>የድንግል ማርያም</span> ምስጋና ስድስተኛ ክፍል</h2>
-<p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 py-10 px-4">
+      <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-xl p-8 animate-fadeIn">
+        <h2 className="text-2xl md:text-3xl font-bold text-center leading-relaxed mb-6">  ቅዳሜ የሚጸለይ አምላክን የወለደች የእመቤታችን <span className='text-red-500'>የድንግል ማርያም</span> ምስጋና ስድስተኛ ክፍል</h2>
+        <div className="space-y-6 text-lg leading-8 text-gray-800">
+          <p>
 ፩. ንጽሕት ነሽ ብርህትም ነሽ ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደስሽ ነሽ ፍጥረቱ ሁሉ ቅድስት ሆይ ለምኝልን። ብለው እየጮሁ ከአንቺ ጋር ደስ ይላቸዋል። ቅድስት ሆይ ለምኝልን።
 </p><p>
 ፪. ጸጋን የተመላሽ ሆይ ደስ ይበልሽ ባለሟልነትን አግኝተሻልና ደስ ይበልሽ <span className='text-red-500'>እግዚአብሔር</span> ከአንቺ ጋር ነውና ደስ ይበልሽ ግርማ ያለሽ ድንግል ሆይ ገናንነትሽን እናመሰግናለን እናደንቃለን እንደ መልአኩ ገብርኤልም ምስጋና እናቀርብልሻለን የባሕርያችን መዳን በማሕፀንሽ ተገኝቷልና ወደ አባቱ ወደ እግዚአብሔርም አቀረበን። ቅድስት ሆይ ለምኝልን።
@@ -26,6 +27,8 @@ function kidame() {
 </p><p>
 ፲. ያለርኩሰት ድንግል የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ የቅዱሳን መደገፊያቸው/መጠጊያቸው/ የማትለወጪ የሃይማኖት በትር ነሽ ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኀጢአታችንንም ያስተሠርይልን ዘንድ። ቅድስት ሆይ ለምኝልን። 
 </p>
+        </div>
+
       </div>
     </div>
   )

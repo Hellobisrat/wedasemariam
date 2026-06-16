@@ -2,10 +2,11 @@ import React from 'react'
 
 const yewedesewa = () => {
   return (
-    <div className='main-style'>
-      <div className='submain-style'>
-        <h2>ይዌድስዋ መላእክት</h2>
-<p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 py-10 px-4">
+      <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-xl p-8 animate-fadeIn">
+        <h2 className="text-2xl md:text-3xl font-bold text-center leading-relaxed mb-6">ይዌድስዋ መላእክት</h2>
+        <div className="space-y-6 text-lg leading-8 text-gray-800">
+          <p>
 ፩. ይዌድስዋ መላእክት መላእክት <span className='text-red-500'>ማርያምን </span>በመንጦላዕት ውስጥ ያመሰግንዋታል ሓዳስ ጣዕዋ ለአንቺ ክብር ምስጋና ይገባሻል እያሉ መልአክ <span className='text-red-500'>ማርያምን</span> ቃልን ተቀበዪው አላት።
 </p><p>
 ከአንቺ ዘንድ ይመጣልና በማኅፀንሽም ያድራል እንዴት ከድኃ ቤት አደረ እንደ ምስኪን ከሰማያት ወርዶ የእርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ።
@@ -53,6 +54,8 @@ const yewedesewa = () => {
 <span className='text-red-500'>ማርያም</span> ሆይ ከተመረጡ የተመረጥሽ ከተከበሩ የተከበርሽ ለአንች ምስጋና ይገባሻል
 </p><p>
 ፬. <span className='text-red-500'>ከጌታችን ከመድኃኒታችን ከኢየሱስ ክርስቶስ</span> ዘንድ ለምኝልን ያድነን ዘንድ በአባቱ ምስጋና ከቅዱሳን መላእክቶቹ ጋር በመጣ ጊዜ ጻድቃንን በቀኙ ኃጥአንን በግራው ባቆመ ጊዜ እኛን ከሰማዕቱ እስጢፋኖስ ከመጥምቁ ዮሐንስና ከሁሉ ቅዱሳን ከሰማዕታትም ጋር ያቆመን ዘንድ ለምኝልን ለዓለመዓለም አሜን ለዘለዓለሙ ይቅር ይበለን።</p>
+        </div>
+
 
       </div>
     </div>

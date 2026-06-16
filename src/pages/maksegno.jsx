@@ -2,10 +2,11 @@ import React from 'react'
 
 function makesegno() {
   return (
-    <div className='bg-black text-slate-200 rounded-md shadow-xl shadow-slate-600 mt-3 h-full mx-auto w-[1000px] p-3  text-lg md:text-xl lg:text-2xl'>
-     <div className='flex flex-col items-start px-6 py-3 leading-relaxed justify-start md:w-[750px] lg:w-[900px] w-full' >
- <h2 className='font-bold'>ማክሰኞ የሚጸለይ አምላክን የወለደች <span className='text-red-500'>የድንግል ማርያም</span>  ምሥጋና ሁለተኛ ክፍል</h2>
-<p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 py-10 px-4">
+     <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-xl p-8 animate-fadeIn">
+ <h2 className="text-2xl md:text-3xl font-bold text-center leading-relaxed mb-6">ማክሰኞ የሚጸለይ አምላክን የወለደች <span className='text-red-500'>የድንግል ማርያም</span>  ምሥጋና ሁለተኛ ክፍል</h2>
+ <div className="space-y-6 text-lg leading-8 text-gray-800">
+  <p>
 ፩. የመመኪያችን ዘውድ የድኅነታችን መጀምሪያ የንጽሕናችንም መሠረት እኛን ስለማዳን ሰው የሆነ<span className='text-red-500'> የእግዚአብሔርን ቃል</span> በወለደችልን <span className='text-red-500'>በድንግል ማርያም</span> ተገኘልን። ሰው ከሆነ በኋላም ፍጹም አምላክ ነው ስለዚህም በድንግልና ወለደችው ድንቅ የሆነ የመውለድዋ ችሎታ የማይመረመር/ሊነገር የማይቻል/ ነው። ቅድስት ሆይ ለምኝልን።
 </p><p>
 ፪. በእርሱ ፈቃድ በአባቱ ፈቃድ <span className='text-red-500'>በመንፈስ ቅዱስ</span>  ፈቃድ መጥቶ አዳነን። በድንግልና ፍጽምት የሆንሽ <span className='text-red-500'>ማርያም</span>  ሆይ የድንግልናሽ ምስጋናና ክብር ታላቅ ነው። <span className='text-red-500'>እግዚአብሔር</span> ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና። ያዕቆብ ከምድር እስከ ሰማይ ደርሳ <span className='text-red-500'>የእግዚአብሔር</span> መላእክት ሲወጡባትና ሲወርዱባት ያያት መሰላል አንቺ ነሽ ። ቅድስት ሆይ ለምኝልን።
@@ -35,6 +36,8 @@ function makesegno() {
 ፲፬.<span className='text-red-500'>የአብ ቃል</span>  እናቱ ንጽሕት ድንግል ሆይ ስለአንቺ የሚነገረውን ነገር መናገር የሚቻለው ምን አንደበት ነው? ኪሩቤል ለሚሸከሙት ንጉሥ ዙፋኑ/ማደሪያው/ ሆንሽ የተከበርሽ ሆይ እናመሰግንሻለን የጌታችን <span className='text-red-500'>ኢየሱስ ክርስቶስ</span> እናቱ መልካሟ ርግብ ሆይ ስምሽን በልጅ ልጅ እንጠራለን። ቅድስት ሆይ ለምኝልን።
 </p><p>
 ፲፭. እናትና ገረድ <span className='text-red-500'>ማርያም</span>  ሆይ ደስ ይበልሽ። የታቀፍሽውን መላእክት ያመሰግኑታልና ኪሩቤልም በፍርሃት ይሰግዱለታልና ሱራፌልም ያለማቋረጥ ክንፋቸውን ዘርግተው የሚመሰገን ንጉሥ/የክብር ባለቤት/ይህ ነው በይቅርታው ብዛት የዓለምን ኃጢአት ያሥተሰርይ ዘንድ የመጣው ይህ ነው ይላሉ። ቅድስት ሆይ ለምኝልን። </p>
+ </div>
+
 </div>
      </div>
 

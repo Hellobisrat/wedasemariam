@@ -2,11 +2,12 @@ import React from 'react'
 
 function arb() {
   return (
-    <div className='main-style'>
-     <div className='submain-style'>
-      <h2 >
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 py-10 px-4">
+      <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-xl p-8 animate-fadeIn">
+      <h2 className="text-2xl md:text-3xl font-bold text-center leading-relaxed mb-6" >
        ዐርብ የሚጸለይ አምላክን የወለደች የእመቤታችን <span className='text-red-500'>የድንግል ማርያም</span> ምስጋና አምስተኛ ክፍል</h2>
-<p>
+        <div className="space-y-6 text-lg leading-8 text-gray-800">
+          <p> 
 ፩. ከሴቶች ተለይተሽ የተባረክሽ ነሽ የማኅፅንሽም ፍሬ የተባረከ ነው ያለ ርኩሰት አምላክን የወለድሽ <span className='text-red-500'>ድንግል ማርያም</span> ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን /ጌታ ተወለደልን/ በክንፈ ረድኤቱም አቀረበን እርሱ ፈጥሮና ልና። ቅድስት ሆይ ለምኝልን።
 </p>
 
@@ -23,6 +24,8 @@ function arb() {
 </p><p>
 ሰማይንና ምድርን ለፈጠረ ጌታ ማደሪያ ሆንሽ። ዘጠኝ ወር በማሕፀንሽ ተሸከምሽው ሰማይና ምድር ለማይወስኑት የታመንሽ አንቺ ነሽ። ከምድር ወደ ሰማይ ለማረግ መሰላል ሆንሽ። ብርሃንሽ ከፀሐይ ብርሃን ይበልጣል። ቅዱሳን በፍጹም ደስታ ያዩት ኮከብ ከአንቺ የተወለደ ምስራቅ አንቺ ነሽ። ይኸውም በጻዕርና በምጥ ትወልድ ዘንድ በሔዋን የፈረደባት ነው። አንቺ <span className='text-red-500'>ማርያም</span>  ግን ጸጋን የተመላሽ ሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና መጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ ንጉሥን ወለድሽልን መሐሪ ነው ሰውንም ወዳጅ ነው። ስለዚህ <span className='text-red-500'>ማርያም</span> ሆይ የተባረክሽ ነሽ የማሕፀንሽም ፍሬ የተባረከ ነው ጸጋን የተመላሽ ሆይ <span className='text-red-500'>እግዚአብሔር </span>ከአንቺ ጋር ነውና ደስ ይበልሽ እያልን <span className='text-red-500'>መልአኩ ገብርኤል</span>  እንዳመሰገነሽ እናመሰግንሻለን። ቅድስት ሆይ ለምኝልን።
    </p>
+</div>
+
 </div>
 </div>
   )
