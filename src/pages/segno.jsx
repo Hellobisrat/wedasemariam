@@ -1,23 +1,23 @@
 import React from "react"
 import segno from "../data/prayer/segno.json"
+import { highlightText } from '../utils/highlight.js'
+// const highlightWords = [
+//   "ማርያም",
+//   "ድንግል ማርያም",
+//   "እግዚአብሔር",
+//   "መንፈስ ቅዱስ",
+//   "ገብርኤል",
+//   "ክርስቶስ"
+// ]
 
-const highlightWords = [
-  "ማርያም",
-  "ድንግል ማርያም",
-  "እግዚአብሔር",
-  "መንፈስ ቅዱስ",
-  "ገብርኤል",
-  "ክርስቶስ"
-]
-
-function highlightText(text) {
-  let result = text
-  highlightWords.forEach(word => {
-    const regex = new RegExp(word, "g")
-    result = result.replace(regex, `<span class='text-red-500'>${word}</span>`)
-  })
-  return result
-}
+// function highlightText(text) {
+//   let result = text
+//   highlightWords.forEach(word => {
+//     const regex = new RegExp(word, "g")
+//     result = result.replace(regex, `<span class='text-red-500'>${word}</span>`)
+//   })
+//   return result
+// }
 
 const SegnoScreen = () => {
   return (
