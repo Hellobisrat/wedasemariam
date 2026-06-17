@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-5 py-4 rounded-t-lg shadow-xl bg-gradient-to-r from-yellow-600 to-yellow-400 text-white">
       
-      <h5 className="text-xl font-bold tracking-wide drop-shadow-md">
+      <h5 className=" text-purple-200 text-xl font-bold tracking-wide drop-shadow-md ">
         <Link to="/">ውዳሴ ማርያም</Link>
       </h5>
 
