@@ -1,6 +1,6 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa}from './index.jsx'
-import SegnoScreen from "./pages/segno.jsx";
+
 
 
 
