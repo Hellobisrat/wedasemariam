@@ -1,7 +1,7 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa}from './index.jsx'
 import SegnoScreen from "./pages/segno.jsx";
-import MakesegnoScreen from "./pages/maksegno.jsx";
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
    
       <Route path="/" element={<Home/>}/>
       <Route path="/form" element={<Form/>}/>
-      <Route path="/segno" element={<SegnoScreen/>}/>
+      <Route path="/segno" element={<Segno/>}/>
       <Route path="/mak" element={<Makesegno/>}/>
       <Route path="/erebu" element={<Erebu/>}/>
       <Route path="/hamus" element={<Hamus/>}/>
