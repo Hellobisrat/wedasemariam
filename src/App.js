@@ -1,5 +1,5 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa}from './index.jsx'
+import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa, Yezeweter}from './index.jsx'
 
 
 
@@ -26,6 +26,7 @@ function App() {
       <Route path="/kidame" element={<Kidame/>}/>
       <Route path="/ehud" element={<Ehud/>}/>
       <Route path="/yewe" element={<Yewedesewa/>}/>
+      <Route path="/yezeweter" element={<Yezeweter/>}/>
 </Routes>
     <Footer/>
     </BrowserRouter>

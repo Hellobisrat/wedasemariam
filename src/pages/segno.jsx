@@ -5,6 +5,4 @@ const Segno=() =>{
   return <PrayerPage {...data} />
 }
 
-
-
 export default Segno

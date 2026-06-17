@@ -3,7 +3,9 @@ import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import church from "../image/church.png"
 
+
 const days = [
+  { label:"የዘወትር ጸሎት", link: "/yezeweter" },
   { label: "የሰኞ ውዳሴ ማርያም", link: "/segno" },
   { label: "የማክሰኞ ውዳሴ ማርያም", link: "/mak" },
   { label: "የረቡዕ ውዳሴ ማርያም", link: "/erebu" },
@@ -11,6 +13,7 @@ const days = [
   { label: "የዐርብ ውዳሴ ማርያም", link: "/arb" },
   { label: "የቅዳሜ ውዳሴ ማርያም", link: "/kidame" },
   { label: "የእሁድ ውዳሴ ማርያም", link: "/ehud" }
+  
 ]
 
 const Form = () => {

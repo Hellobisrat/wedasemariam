@@ -11,4 +11,5 @@ export { default as Hamus } from "./pages/hamus.jsx";
 export { default as Arb } from "./pages/arb.jsx";
 export { default as Kidame } from "./pages/kidame.jsx";
 export { default as Yewedesewa } from "./pages/yewedesewa.jsx";
+export {default as Yezeweter} from "./pages/yezeweter.jsx"
 
