@@ -67,4 +67,9 @@ body {
   font-family: 'Noto Sans Ethiopic', sans-serif;
 }
 
+* {
+  touch-action: manipulation;
+}
+
+
 
