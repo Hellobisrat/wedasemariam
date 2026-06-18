@@ -6,6 +6,7 @@ import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewe
 function App() {
    
   return (
+    <div className="min-h-dvh bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 pt-[env(safe-area-inset-top)]">
     <BrowserRouter>
        <Navbar/>
     <Routes>
@@ -23,6 +24,7 @@ function App() {
     </Routes>
       <Footer/>
     </BrowserRouter>
+    </div>
     
   );
 }
