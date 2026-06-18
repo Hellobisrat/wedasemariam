@@ -3,19 +3,12 @@ import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewe
 
 
 
-
-
-
-
 function App() {
    
   return (
-
-   
-      <BrowserRouter>
+    <BrowserRouter>
        <Navbar/>
     <Routes>
-   
       <Route path="/" element={<Home/>}/>
       <Route path="/form" element={<Form/>}/>
       <Route path="/segno" element={<Segno/>}/>
@@ -27,11 +20,9 @@ function App() {
       <Route path="/ehud" element={<Ehud/>}/>
       <Route path="/yewe" element={<Yewedesewa/>}/>
       <Route path="/yezeweter" element={<Yezeweter/>}/>
-</Routes>
-    <Footer/>
+    </Routes>
+      <Footer/>
     </BrowserRouter>
-
-    
     
   );
 }
