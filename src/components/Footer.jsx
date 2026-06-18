@@ -12,7 +12,6 @@ const Footer = () => {
       shadow-md p-2 flex justify-around 
       text-gray-700 dark:text-gray-200
       backdrop-blur-sm
-      will-change-transform
       transition-colors duration-300
     ">
       <Link 
