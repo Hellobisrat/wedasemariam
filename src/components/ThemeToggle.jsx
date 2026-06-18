@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FiSun, FiMoon } from "react-icons/fi";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState(
@@ -20,11 +21,17 @@ export default function ThemeToggle() {
 
   return (
     <button
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 text-xl"
-    >
-      {theme === "dark" ? "🌞" : "🌙"}
-    </button>
+  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+  className="p-2 flex items-center justify-center w-12 h-12 
+             bg-yellow-500 dark:bg-gray-700 
+             rounded-full transition-all active:scale-95"
+>
+  {theme === "dark" ? (
+    <FiSun className="text-yellow-300 text-2xl drop-shadow-[0_0_6px_rgba(255,255,0,0.6)]"/>
+  ) : (
+    <FiMoon className="text-slate-200 text-2xl drop-shadow-[0_0_6px_rgba(150,200,255,0.5)]" />
+  )}
+</button>
   );
 }
 
