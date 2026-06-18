@@ -41,15 +41,7 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li>
-          <Link
-            to="/yewe"
-            className="flex items-center gap-1 hover:opacity-80 dark:hover:opacity-70 transition"
-          >
-            <HeartHandshake size={18} />
-            <span>ይዌድስዋ</span>
-          </Link>
-        </li>
+    
       </ul>
 
       <ThemeToggle />

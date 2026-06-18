@@ -12,7 +12,8 @@ const days = [
   { label: "የሐሙስ ውዳሴ ማርያም", link: "/hamus" },
   { label: "የዐርብ ውዳሴ ማርያም", link: "/arb" },
   { label: "የቅዳሜ ውዳሴ ማርያም", link: "/kidame" },
-  { label: "የእሁድ ውዳሴ ማርያም", link: "/ehud" }
+  { label: "የእሁድ ውዳሴ ማርያም", link: "/ehud" },
+  { label: "ይዌድስዋ", link: "/yewe" }
   
 ]
 
