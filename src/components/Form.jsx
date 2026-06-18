@@ -36,7 +36,7 @@ const Form = () => {
           የውዳሴ ማርያም ቀን ምርጫ
         </h1>
 
-        <div className="flex flex-col gap-4 text-lg">
+        <div className="flex flex-col gap-2 text-lg">
           {days.map((day, index) => (
             <motion.div
               key={index}
