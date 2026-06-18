@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Home, Menu, HeartHandshake } from "lucide-react";
+import { Home, Menu} from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
