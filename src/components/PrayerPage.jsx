@@ -22,7 +22,7 @@ export default function PrayerPage({ title, subtitle, sections }) {
           </h2>
         )}
 
-        <div className="space-y-6 text-xl font-bold leading-10 
+        <div className="space-y-6 text-xl font-semibold leading-10 
           text-gray-800 dark:text-gray-200 
           p-2 md:p-3 transition-colors duration-300">
 
