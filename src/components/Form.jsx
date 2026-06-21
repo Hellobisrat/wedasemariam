@@ -23,7 +23,7 @@ const Form = () => {
       <div className="absolute inset-0 bg-black/40 dark:bg-black/60 backdrop-blur-sm"></div>
 
       <div className="relative w-full max-w-md 
-                      bg-white/90 dark:bg-gray-800/90 
+                      bg-purple-100/90 dark:bg-gray-800/90 
                       shadow-xl rounded-2xl p-8 
                       transition-colors duration-300 mx-auto">
         
