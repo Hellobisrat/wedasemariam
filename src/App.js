@@ -1,5 +1,5 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa, Yezeweter}from './index.jsx'
+import {Form,Home,Navbar,Footer,Segno,Makesegno,Erebu,Hamus,Arb,Kidame,Ehud,Yewedesewa, Yezeweter,Form1,Form2}from './index.jsx'
 
 
 
@@ -12,6 +12,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/form" element={<Form/>}/>
+      <Route path="/form1" element={<Form1/>}/>
+      <Route path="/form2" element={<Form2/>}/>
       <Route path="/segno" element={<Segno/>}/>
       <Route path="/mak" element={<Makesegno/>}/>
       <Route path="/erebu" element={<Erebu/>}/>

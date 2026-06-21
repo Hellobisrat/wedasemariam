@@ -6,13 +6,8 @@ import church from "../image/church.png"
 
 const days = [
   { label:"የዘወትር ጸሎት", link: "/yezeweter" },
-  { label: "የሰኞ ውዳሴ ማርያም", link: "/segno" },
-  { label: "የማክሰኞ ውዳሴ ማርያም", link: "/mak" },
-  { label: "የረቡዕ ውዳሴ ማርያም", link: "/erebu" },
-  { label: "የሐሙስ ውዳሴ ማርያም", link: "/hamus" },
-  { label: "የዐርብ ውዳሴ ማርያም", link: "/arb" },
-  { label: "የቅዳሜ ውዳሴ ማርያም", link: "/kidame" },
-  { label: "የእሁድ ውዳሴ ማርያም", link: "/ehud" },
+  { label: "ሰኞ - ረቡዕ ", link: "/form1" },
+  { label: "ሐሙስ - እሁድ", link: "/form2" },
   { label: "ይዌድስዋ", link: "/yewe" }
   
 ]
@@ -30,7 +25,7 @@ const Form = () => {
       <div className="relative w-full max-w-md 
                       bg-white/90 dark:bg-gray-800/90 
                       shadow-xl rounded-2xl p-8 
-                      transition-colors duration-300">
+                      transition-colors duration-300 mx-auto">
         
         <h1 className="text-2xl font-bold text-center mb-6 dark:text-gray-100">
           የውዳሴ ማርያም ቀን ምርጫ

@@ -12,4 +12,6 @@ export { default as Arb } from "./pages/arb.jsx";
 export { default as Kidame } from "./pages/kidame.jsx";
 export { default as Yewedesewa } from "./pages/yewedesewa.jsx";
 export {default as Yezeweter} from "./pages/yezeweter.jsx"
+export {default as Form1} from "./components/Form1.jsx"
+export {default as Form2} from "./components/Form2.jsx"
 
