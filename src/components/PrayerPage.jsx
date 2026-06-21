@@ -5,7 +5,7 @@ export default function PrayerPage({ title, subtitle, sections }) {
     <div className="min-h-screen 
       bg-gradient-to-b from-gray-50 to-gray-300 
       dark:from-gray-900 dark:to-gray-800 
-      py-10 px-4 transition-colors duration-300">
+      py-5 px-4 transition-colors duration-300">
 
       <div className="max-w-3xl mx-auto 
         bg-white dark:bg-gray-800 
@@ -24,7 +24,7 @@ export default function PrayerPage({ title, subtitle, sections }) {
 
         <div className="space-y-6 text-lg leading-10 
           text-gray-800 dark:text-gray-200 
-          p-6 md:p-10 transition-colors duration-300">
+          p-3 md:p-5 transition-colors duration-300">
 
           {sections.map((section, index) => (
             <p
