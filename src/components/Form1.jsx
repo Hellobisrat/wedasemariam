@@ -8,6 +8,7 @@ const days = [
   { label: "የሰኞ ውዳሴ ማርያም ", link: "/segno" },
   { label: "የማክሰኞ ውዳሴ ማርያም", link: "/mak" },
   { label: "የረቡዕ ውዳሴ ማርያም", link: "/erebu" },
+
  
   
 ]

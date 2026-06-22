@@ -14,4 +14,5 @@ export { default as Yewedesewa } from "./pages/yewedesewa.jsx";
 export {default as Yezeweter} from "./pages/yezeweter.jsx"
 export {default as Form1} from "./components/Form1.jsx"
 export {default as Form2} from "./components/Form2.jsx"
+export {default as Mezmur} from "./pages/mezmur.jsx"
 
